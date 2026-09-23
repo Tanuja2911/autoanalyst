@@ -39,18 +39,18 @@ An autonomous data analysis agent powered by **LangGraph ReAct**, **FastAPI**, a
 ```
 autoanalyst/
 ├── backend/
-│   ├── main.py          # FastAPI app, REST API & WebSocket handler
-│   ├── agent.py         # LangGraph ReAct agent, tools & REPL sandbox
-│   ├── analyzer.py      # Standalone analytics utilities
-│   ├── requirements.txt # Python dependencies
-│   └── .env             # API key config
+│   ├── main.py         
+│   ├── agent.py       
+│   ├── analyzer.py      
+│   ├── requirements.txt 
+│   └── .env             
 └── frontend/
     ├── src/
-    │   ├── App.vue               # Root layout & view router
+    │   ├── App.vue              
     │   ├── components/
-    │   │   ├── FileUpload.vue   # CSV drag-and-drop uploader
-    │   │   └── AnalysisView.vue # Stream sidebar, chart grid & chat input
-    │   └── style.css            # Tailwind theme tokens
+    │   │   ├── FileUpload.vue   
+    │   │   └── AnalysisView.vue 
+    │   └── style.css         
     └── package.json
 ```
 
